@@ -15,7 +15,7 @@ give the correct permission to execute,
 and simply run the script.
 <pre>
   $ cd your-python-project
-  $ curl -o venv-activate.sh  <https://raw.githubusercontent.com/rideee/python-venv-activate/main/venv-activate.sh> && chmodu+x venv-activate.sh
+  $ curl -o venv-activate.sh https://raw.githubusercontent.com/rideee/python-venv-activate/main/venv-activate.sh && chmod u+x venv-activate.sh
   $ ./venv-activate.sh
 </pre>
 
