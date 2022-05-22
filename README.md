@@ -21,14 +21,21 @@ and simply run the script.
 
 ### Global installation
 
-It is also possible to using this script globaly. For example:
+It is also possible to using this script globally. For example:
 <pre>
   $ git clone https://github.com/rideee/python-venv-activate $HOME/.python-venv-activate
   $ ln -s $HOME/.python-venv-activate/venv-activate.sh $HOME/.local/bin/venv-activate
 </pre>
 Make sure that <code>$HOME/.local/bin</code> is in your <code>$PATH</code>.
-Now we are able to use this script globaly, example:
+Now we are able to use this script globally, example:
 <pre>
   $ cd your-python-project
   $ venv-activate .
+</pre>
+
+When script is installed globally, you can easily get fresh copy from github
+using <code>--get-me</code> option:
+<pre>
+  $ cd your-python-project
+  $ venv-activate --get-me . venva.sh   # Path and file name are optional.
 </pre>
