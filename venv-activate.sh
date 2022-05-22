@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# This script detects if project is managed by poetry and if that is true,
-# it is running poetry shell, otherwise script creating subshell and source
-# activate script.
+# This script detects if project is managed by poetry and if so,
+# it is running poetry shell, otherwise script creates a subshell and sources
+# the 'activate' script.
 #
 # Made by Michal Katnik (github.com/rideee)
 
