@@ -13,8 +13,22 @@ activate script.
 You can copy this script directly to your python project (root folder),
 give the correct permission to execute,
 and simply run the script.
-<code>
+<pre>
   $ cd your-python-project
   $ curl -o venv-activate.sh  <https://raw.githubusercontent.com/rideee/python-venv-activate/main/venv-activate.sh> && chmodu+x venv-activate.sh
   $ ./venv-activate.sh
-</code>
+</pre>
+
+### Global installation
+
+It is also possible to using this script globaly. For example:
+<pre>
+  $ git clone https://github.com/rideee/python-venv-activate $HOME/.python-venv-activate
+  $ ln -s $HOME/.python-venv-activate/venv-activate.sh $HOME/.local/bin/venv-activate
+</pre>
+Make sure that <code>$HOME/.local/bin</code> is in your <code>$PATH</code>.
+Now we are able to use this script globaly, example:
+<pre>
+  $ cd your-python-project
+  $ venv-activate .
+</pre>
